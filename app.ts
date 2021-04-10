@@ -1,3 +1,4 @@
-const hello = "hello world";
+const fs = require("fs");
 
-console.log(hello);
+fs.writeFileSync("text.txt", "this was create by nodejs");
+fs.appendFileSync("text.txt", " this is the message added");
