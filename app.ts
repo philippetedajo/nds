@@ -1,4 +1,3 @@
-const fs = require("fs");
+const add = require("./utils.ts");
 
-fs.writeFileSync("text.txt", "this was create by nodejs");
-fs.appendFileSync("text.txt", " this is the message added");
+console.log(add(64, 124));
