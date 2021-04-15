@@ -1,5 +1,3 @@
-const validator = require("validator");
+const chalk = require("chalk");
 
-let text = "helooworld@asdfasdfasd.com";
-
-console.log(validator.isEmail(text));
+console.log(chalk.green.bold.inverse("Hello world!"));
