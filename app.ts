@@ -1,3 +1,5 @@
-const add = require("./utils.ts");
+const validator = require("validator");
 
-console.log(add(64, 124));
+let text = "helooworld@asdfasdfasd.com";
+
+console.log(validator.isEmail(text));
