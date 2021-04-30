@@ -6,9 +6,7 @@
   "author": "philippetedajo <philimart21@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "@types/chalk": "^2.2.0",
     "@types/node": "^14.14.37",
-    "chalk": "^4.1.0",
     "prettier": "^2.2.1",
     "ts-node": "^9.1.1",
     "typescript": "^4.2.4"
